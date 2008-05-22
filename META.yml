@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                POSIX-Regex
-version:             0.90.4
+version:             0.90.6
 abstract:            ~
 license:             ~
 author:              
