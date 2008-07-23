@@ -11,4 +11,8 @@ t/03_complicated_matching.t
 t/04_case.t
 t/05_extended.t
 inc/Devel/CheckLib.pm
-META.yml                                 Module meta-data (added by MakeMaker)
+Build.PL
+Regex.pod
+lib/POSIX/const-c.inc
+lib/POSIX/const-xs.inc
+META.yml
