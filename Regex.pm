@@ -5,7 +5,6 @@ use warnings;
 use Carp;
 
 require Exporter;
-use AutoLoader;
 use base 'Exporter';
 
 our %EXPORT_TAGS = ( all => [qw(
@@ -17,7 +16,7 @@ our %EXPORT_TAGS = ( all => [qw(
 our @EXPORT_OK = ( @{$EXPORT_TAGS{all}} );
 our @EXPORT = qw();
 
-use version; our $VERSION = qv('0.90.13');
+use version; our $VERSION = qv('0.90.14');
 
 # AUTOLOAD {{{
 sub AUTOLOAD {
