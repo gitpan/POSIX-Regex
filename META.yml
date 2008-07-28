@@ -1,6 +1,6 @@
 ---
 name: POSIX-Regex
-version: 0.90.14
+version: 0.90.15
 author:
   - 'Jettero Heller <japh@voltar-confed.org>'
 abstract: OO interface for the gnu regex engine
@@ -15,7 +15,7 @@ build_requires:
 provides:
   POSIX::Regex:
     file: Regex.pm
-    version: 0.90.14
+    version: 0.90.15
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
