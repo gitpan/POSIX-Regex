@@ -1,22 +1,14 @@
----
-name: POSIX-Regex
-version: 0.90.16
-author:
-  - 'Paul Miller <jettero@cpan.org>'
-abstract: OO interface for the gnu regex engine
-license: lgpl
-resources:
-  license: http://opensource.org/licenses/artistic-license.php
-requires:
-  version: 0
-build_requires:
-  ExtUtils::CBuilder: 0
-  ExtUtils::Constant: 0
-provides:
-  POSIX::Regex:
-    file: Regex.pm
-    version: 0.90.16
-generated_by: Module::Build version 0.2808
+--- #YAML:1.0
+name:                POSIX-Regex
+version:             1.000_000
+abstract:            ~
+license:             ~
+author:              
+    - Paul Miller <jettero@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+    ExtUtils::Constant:            0.16
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
