@@ -1,28 +1,28 @@
---- #YAML:1.0
-name:               POSIX-Regex
-version:            1.0001
-abstract:           ~
+---
+abstract: unknown
 author:
-    - Paul Miller <jettero@cpan.org>
-license:            lgpl2
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Paul Miller <jettero@cpan.org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    ExtUtils::Constant:  0.16
-    perl:                5.008
-resources:
-    repository:  http://github.com/jettero/posix--regex/tree
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
-meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.112621'
 keywords:
-    - posix
-    - regex
+  - posix
+  - regex
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: POSIX-Regex
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  ExtUtils::Constant: 0.16
+  perl: 5.008
+resources:
+  repository: http://github.com/jettero/posix--regex/tree
+version: 1.0002
