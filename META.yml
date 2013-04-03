@@ -25,4 +25,4 @@ requires:
   perl: 5.008
 resources:
   repository: http://github.com/jettero/posix--regex/tree
-version: 1.0002
+version: 1.0003
